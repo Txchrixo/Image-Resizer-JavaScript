@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Resizer JavaScript | TxChris</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="upload-box">
+            <input type="file" accept="image/*" hidden>
+            <img src="upload-icon.png" alt="">
+            <p>Browse File To Upload</p>
+        </div>
+        <div class="content">
+            <div class="row sizes">
+                <div class="column width">
+                    <label for="">Width</label>
+                    <input type="number" name="" id="">
+                </div>
+                <div class="column height">
+                    <label for="">Height</label>
+                    <input type="number" name="" id="">
+                </div>
+            </div>
+            <div class="row checkboxes">
+                <div class="column ratio">
+                    <input type="checkbox" name="" id="ratio" checked>
+                    <label for="ratio">Lock aspect ratio</label>
+                </div>
+                <div class="column quality">
+                    <input type="checkbox" name="" id="quality">
+                    <label for="quality">Reduce quality</label>
+                </div>
+            </div>
+            <button class="download-btn">Download Image</button>
+        </div>
+    </div>
+</body>
+</html>
